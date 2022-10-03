@@ -52,7 +52,10 @@ export default function Main() {
             >
               <FaGithub />
             </a>
-            <a className='rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-110 ease-in duration-300'>
+            <a 
+              href='mailto:hmartins224@gmail.com'
+              className='rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-110 ease-in duration-300'
+            >
               <AiOutlineMail />
             </a>
           </section>
