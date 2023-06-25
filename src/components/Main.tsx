@@ -43,18 +43,24 @@ export default function Main() {
 
           <section className="flex items-center justify-between max-w-[330px] m-auto py-4">
             <a
+              title="Linkedin"
+              aria-label="Linkedin"
               href="https://www.linkedin.com/in/henrique-martins-03436/"
               className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-110 ease-in duration-300"
             >
               <FaLinkedin />
             </a>
             <a
+              title="Github"
+              aria-label="Github"
               href="https://github.com/hmartiins"
               className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-110 ease-in duration-300"
             >
               <FaGithub />
             </a>
             <a
+              title="E-mail"
+              aria-label="E-mail"
               href="mailto:hmartins224@gmail.com"
               className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-110 ease-in duration-300"
             >
