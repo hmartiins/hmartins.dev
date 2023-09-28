@@ -4,7 +4,7 @@ import TypeWriterEffect from "typewriter-effect";
 import { AiOutlineMail } from "react-icons/ai";
 import { FaGithub, FaLinkedin } from "react-icons/fa";
 
-export default function Main() {
+export function Main() {
   const stringsTypeWriter = [
     "Henrique Martins",
     "Santista",
