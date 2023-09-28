@@ -1,6 +1,8 @@
 import { ReactNode } from "react";
 import "./globals.css";
 
+import { ApplicationThemeContextProvider } from "@src/contexts";
+
 export const metadata = {
   title: "Henrique Martins | FrontEnd Developer",
   description:
@@ -10,7 +12,11 @@ export const metadata = {
 export default function RootLayout({ children }: { children: ReactNode }) {
   return (
     <html lang="pt-br">
-      <body>{children}</body>
+      <body>
+        <ApplicationThemeContextProvider>
+          {children}
+        </ApplicationThemeContextProvider>
+      </body>
     </html>
   );
 }

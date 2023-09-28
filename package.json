@@ -9,10 +9,12 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@radix-ui/react-toggle": "^1.0.3",
     "next": "^13.4.7",
     "react": "18.2.0",
     "react-dom": "18.2.0",
     "react-icons": "^4.4.0",
+    "tailwind-merge": "^1.14.0",
     "typewriter-effect": "^2.19.0"
   },
   "devDependencies": {
