@@ -61,7 +61,7 @@ export function Main() {
             <a
               title="E-mail"
               aria-label="E-mail"
-              href="mailto:hmartins224@gmail.com"
+              href="mailto:hmartins.dev@gmail.com"
               className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-110 ease-in duration-300"
             >
               <AiOutlineMail />
