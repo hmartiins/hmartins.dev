@@ -45,7 +45,7 @@ export function Main() {
             <a
               title="Linkedin"
               aria-label="Linkedin"
-              href="https://www.linkedin.com/in/henrique-martins-03436/"
+              href="https://www.linkedin.com/in/hmartins-dev/"
               className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-110 ease-in duration-300"
             >
               <FaLinkedin />
