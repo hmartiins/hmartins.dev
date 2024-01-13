@@ -2,7 +2,7 @@
 import TypeWriterEffect from "typewriter-effect";
 
 import { AiOutlineMail } from "react-icons/ai";
-import { FaGithub, FaLinkedin } from "react-icons/fa";
+import { FaGithub, FaLinkedin, FaTwitter } from "react-icons/fa";
 
 export function Main() {
   const stringsTypeWriter = [
@@ -43,6 +43,8 @@ export function Main() {
 
           <section className="flex items-center justify-between max-w-[330px] m-auto py-4">
             <a
+              target="_blank"
+              rel="noreferrer nofollow"
               title="Linkedin"
               aria-label="Linkedin"
               href="https://www.linkedin.com/in/hmartins-dev/"
@@ -51,6 +53,8 @@ export function Main() {
               <FaLinkedin />
             </a>
             <a
+              target="_blank"
+              rel="noreferrer nofollow"
               title="Github"
               aria-label="Github"
               href="https://github.com/hmartiins"
@@ -59,6 +63,18 @@ export function Main() {
               <FaGithub />
             </a>
             <a
+              target="_blank"
+              rel="noreferrer nofollow"
+              title="Twitter"
+              aria-label="Twitter"
+              href="https://twitter.com/henriquemdev"
+              className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-110 ease-in duration-300"
+            >
+              <FaTwitter />
+            </a>
+            <a
+              target="_blank"
+              rel="noreferrer nofollow"
               title="E-mail"
               aria-label="E-mail"
               href="mailto:hmartins.dev@gmail.com"
